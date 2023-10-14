@@ -7,6 +7,7 @@ export default function App() {
       <ServiceRating />
       <FriendsServiceRating />
       <Total />
+      <Button />
     </div>
   );
 }
@@ -50,6 +51,14 @@ function Total() {
   return (
     <div className="row">
       <h1>You pay $X ($X + $X tip)</h1>
+    </div>
+  );
+}
+
+function Button() {
+  return (
+    <div className="row">
+      <button>Reset</button>
     </div>
   );
 }
