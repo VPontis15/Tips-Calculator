@@ -11,11 +11,17 @@
   gap: 1.125rem;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 input,
 select,
 option {
   font-size: 1rem;
   padding: 0.25em;
+  background: none;
+  border: 1px solid #7777;
 }
 
 button {
